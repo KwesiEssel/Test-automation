@@ -1,12 +1,12 @@
-import auth from '../../auth'
-import config from '../../config'
-import * as calendarActions from '../shared/actions/calendar/calendar'
-import { login } from '../shared/actions/loginPage'
-import { waitForElement } from '../shared/actions/shared'
-import * as calendarSelectors from '../shared/selectors/calendar/calendar'
-import * as calendarModalSelectors from '../shared/selectors/modals/calendar'
-import { buttonGeneric } from '../shared/selectors/shared'
-import { tabButtonRefresh } from '../shared/selectors/topBar'
+import authTest from '../../auth'
+import configTestExample from '../../config'
+import * as calendarActionsTest from '../shared/test/calendar/test'
+import { loginTestExample } from '../shared/actions/test'
+import { waitForElementTestExample } from '../shared/actions/test'
+import * as calendarSelectorsTestExample from '../test/selectors/calendar/test'
+import * as calendarModalSelectorsTest from '../shared/selectors/modals/test'
+import { buttonGenericTestExample } from '../shared/selectors/test'
+import { tabButtonRefreshTest } from '../shared/selectors/test'
 
 fixture`Book fast blocker in weekly view with several Ressources`
   .page`${config.TestExample}`
