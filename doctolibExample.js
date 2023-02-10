@@ -13,7 +13,7 @@ fixture`Click on the tabs`
   .beforeEach(async (t) => {
     await t.maximizeWindow()
 
-    // Login as tea, using function from page-model.js
+    // Login
     await login('test', 'testen')
   })
 
