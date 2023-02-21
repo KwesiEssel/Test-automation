@@ -7,7 +7,7 @@ export const fieldResourceColumnHeaderCancel = Selector(
   'svg[data-icon="calendar-xmark"]'
 ).filterVisible()
 export const fieldResourceColumnHeaderDrTea = Selector(
-  '[class|="ResourceWrapper"]'
+  '[class|="ResourceWrapperTest"]'
 )
-  .withText('Dr. Tea')
+  .withText('Dr. Test')
   .filterVisible()
