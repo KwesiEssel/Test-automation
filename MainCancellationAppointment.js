@@ -1,10 +1,13 @@
-await t
-    // click on Ressource Dr. Tea
+import { Selector, t } from 'testcafe';
+
+fixture('Cancel Appointments Test')
+  .page('https://www.test.de');
+
+test('Cancel appointments for Dr. Tea', async () => {
+ 
+  await t
     .hover(calendarSelectors.fieldResourceColumnHeaderDrTest)
-    // Click on Cancel multiple appointments
     .click(calendarSelectors.fieldResourceColumnHeaderCancel)
-    // Cancel Appointments
     .click(calendarSelectors.appointmentListCancelAppointment)
-    // Confirm Cancelling
     .click(buttonConfirmCancelAppointment)
 })
