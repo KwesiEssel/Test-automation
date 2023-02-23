@@ -3,7 +3,7 @@ import tabButton from '../../test'
 import { login } from '../shared/actions/loginPage'
 
 fixture`Click on the tabs`
-  .page`https://www.doctolib.de/sessions/new`
+  .page`https://www.test.de/sessions/new`
 
   .httpAuth({
     username: auth.username,
@@ -17,7 +17,7 @@ fixture`Click on the tabs`
     await login('test', 'testen')
   })
 
-test.page`https://www.doctolib.de/sessions/new`(
+test.page`https://www.test.de/sessions/new`(
   'Click on the tabs',
   async (t) => {
     await t
