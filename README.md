@@ -3,4 +3,4 @@ Developing test automation with examples
 Here you will find examples of test automation that I have written before. 
 
 ## Usage
-I develop with Node.js using the open-source software testcafe and cypress.
+I develop with Node.js using the open-source software testcafe, cypress, selenium and gherkin.
