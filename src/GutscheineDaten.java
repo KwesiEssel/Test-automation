@@ -10,8 +10,6 @@ public class GutscheineDaten {
         File file = new File("C:\\Users\\dadzi\\Documents\\PAR GmbH\\GutscheineDaten.txt");
         List<String> remainingLines = new ArrayList<>();
 
-
-
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             gutscheincode = br.readLine();
             String line;
