@@ -9,6 +9,6 @@ anwenden und das Element entfernen, weil das Element keine Verwendbarkeit mehr h
 English:
 We have a list of vouchers that are stored in a text file.
 This text file can be changed as soon as a run is started.
-This means that an element is deleted from the text file and the new list is created.
+This means that an element is deleted from the text file and the new list is automatically created.
 This can be very helpful in test automation if you work with text files and want to read out an element,
 apply it and remove the element because it is no longer usable.
