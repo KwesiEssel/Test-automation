@@ -1,5 +1,5 @@
 @Wenn ( der Kunde auf next-bahn.de den Gutschein Istringt einlöst )
-aDann(wird der Gutschein auf next-bahn.de {stringt eingelost!)
+@Dann(wird der Gutschein auf next-bahn.de {stringt eingelost!)
 public void der _Kunde_Loest_auf_next_bahn_de den _Gutschein_ein(String gutscheincode) {
 der text = "Der Wert Ihrer Buchung ist durch Ihren Gutschein komplett abgedeckt
 Zahlung.gutscheinHinzufuegenBundeswehr_cick()
