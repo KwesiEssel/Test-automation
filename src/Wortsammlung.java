@@ -2,7 +2,6 @@ import java.io.*;
 
 public class Wortsammlung {
 
-    // Pfad zur Datei
     private String filePath = "C:\\Users\\dadzi\\Documents\\PAR GmbH\\Wortsammlung.txt"; // Beispiel-Pfad
 
     public Wortsammlung() throws IOException {
