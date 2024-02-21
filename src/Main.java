@@ -5,9 +5,6 @@ public class Main {
 
 
         Wortsammlung wort = new Wortsammlung();
-
-
-
     }
 }
 
